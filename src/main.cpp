@@ -99,7 +99,7 @@ void function(char LedC){
     digitalWrite(LEDB, LOW);
     break;
   default:
-    Serial.println("Unvalid value");
+    Serial.println("Invalid value");
     percentCharacteristc.setValue("NA");
     break;
   }
